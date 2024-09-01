@@ -1,0 +1,12 @@
+DBConfig.json
+{
+    "host": "localhost",
+    "port": 3306,
+    "database": "your database",
+    "user": "root",
+    "password": "your password"
+}
+
+DB(MySQL)
+create table ToDoList(name varchar(20) primary key, done varchar(10) not
+null, time varchar(30));
